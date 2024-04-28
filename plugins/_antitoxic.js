@@ -6,7 +6,7 @@ const tradutor = _translate.plugins._antitoxic // Opção de Tradução do arqui
   // To set the language, in the root of the project, modify the config.json file.
 
 
-const toxicRegex = /puto|puta|rata|estupido|imbecil|rctmre|mrd|verga|vrga|maricon/i;
+const toxicRegex = /كس|كسمك|شرموط|يبن الشرموطه|يبن المتناكه|يبن اللبوه|خول|يبن الخول|يا متناكه|يا قحبه|يبن القحبه/i;
 
 export async function before(m, {isAdmin, isBotAdmin, isOwner}) {
   if (m.isBaileys && m.fromMe) {
