@@ -23,9 +23,9 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     },
   });
 };
-handler.help = ['fake <text> @user <text2>'];
+handler.help = ['فيك'];
 handler.tags = ['tools'];
-handler.command = /^(fitnah|fakereply|fake)$/;
+handler.command = /^(fitnah|fakereply|fake|فيك)$/;
 
 export default handler;
 
