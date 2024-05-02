@@ -22,8 +22,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                         rows: [
                           {
                             header: 'المطور',
-                            title: 'المطور',
-                            description: 'ببيجبلك رقم المطور',
+                            title: '',
+                            description: 'تفعيل كود(#المطور) ',
                             id: '.المطور'
                           }, 
                           {
