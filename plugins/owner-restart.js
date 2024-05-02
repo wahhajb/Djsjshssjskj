@@ -10,8 +10,8 @@ const handler = async (m, {conn, isROwner, text}) => {
     await m.reply(tradutor.texto2);
     process.send('reset');
 };
-handler.help = ['restart'];
+handler.help = ['رستر'];
 handler.tags = ['owner'];
-handler.command = ['restart', 'reiniciar'];
+handler.command = ['restart', 'reiniciar','رستر'];
 handler.rowner = true;
 export default handler;
