@@ -24,5 +24,5 @@ const handler = async (m, {conn, text}) => {
 };
 handler.help = ['ytsearch *<texto>*'];
 handler.tags = ['search'];
-handler.command = ['ytsearch', 'yts'];
+handler.command = ['ytsearch', 'yts','بحثيوت','بحث_يوت'];
 export default handler;
